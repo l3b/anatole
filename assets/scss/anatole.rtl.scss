@@ -2,3 +2,5 @@ $content-ratio: {{ .Site.Params.contentratio | default 0.6 }};
 $text-direction: "rtl";
 
 @import 'main.scss';
+
+@import url('https://fonts.googleapis.com/css2?family=Tajawal&display=swap');

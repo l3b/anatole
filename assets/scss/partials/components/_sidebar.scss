@@ -57,12 +57,15 @@
       width: 127px;
       height: 127px;
       border-radius: 50%;
+      // fill: $primary--lightmode;
+      
     }
+    
 
     &-title {
       text-transform: uppercase;
       font-weight: bold;
-      letter-spacing: 2px;
+      letter-spacing: 1px;
       line-height: 1;
       margin: 1em;
 

@@ -5,9 +5,11 @@
   &.theme--dark {
     color: $primary--darkmode;
     background-color: $accent--darkmode;
+    fill: $primary--darkmode;
   }
   &.theme--light {
     color: $primary--lightmode;
     background-color: $accent--lightmode;
+    fill: $primary--lightmode;
   }
 }
