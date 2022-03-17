@@ -58,7 +58,10 @@
       height: 127px;
       border-radius: 50%;
       // fill: $primary--lightmode;
-      
+      &:hover {
+        fill: t('info');
+        
+      }
     }
     
 

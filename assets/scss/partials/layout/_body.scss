@@ -6,10 +6,18 @@
     color: $primary--darkmode;
     background-color: $accent--darkmode;
     fill: $primary--darkmode;
+    ::selection{
+      background-color: t('primary');
+      color: t('info');
+     }
   }
   &.theme--light {
     color: $primary--lightmode;
     background-color: $accent--lightmode;
     fill: $primary--lightmode;
+    ::selection{
+      background-color: t('info');
+      color: t('primary');
+     }
   }
 }

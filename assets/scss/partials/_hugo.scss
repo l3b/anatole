@@ -31,3 +31,14 @@ blockquote {
 p {
   line-height: 1.9em;
 }
+
+// ::selection{
+//   &.theme--dark {
+//     background-color: t('info');
+//     color: t('primary')
+//   }
+//   &.theme--light {
+//     background-color: #FFF
+//     color: t('info');
+//   }
+// }
